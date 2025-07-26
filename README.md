@@ -25,7 +25,7 @@ Machine Learning (Optional): TensorFlow/Keras (LSTM)
 
 🧑‍💻 How to Run Locally
 Clone the repository
-git clone https://github.com/your-username/stock-analysis-app.git
+git clone https:[//github.com/your-username/stock-analysis-app.git](https://github.com/Sagargupta5159/Stock-Vision-Predicting-Stock-Trends-with-Open-Interest-Trading-Volume)
 cd stock-analysis-app
 
 Install dependencies
