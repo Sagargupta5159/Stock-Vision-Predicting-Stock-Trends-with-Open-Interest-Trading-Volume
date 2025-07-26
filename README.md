@@ -1,38 +1,41 @@
 # Stock-Vision-Predicting-Stock-Trends-with-Open-Interest-Trading-Volume
 📈 Stock Analysis and Forecasting App This project is a Streamlit-based interactive web application that allows users to:  ✅ Analyze historical stock data ✅ Visualize candlestick charts and daily returns ✅ Simulate investment performance
 
-🚀 Features
-📊 Stock Data Analysis using Yahoo Finance (via yfinance)
+# 📈 Stock Analysis and Forecasting App
 
-📈 Candlestick Charts and Profit/Loss Trends with Plotly
+This project is a **Streamlit-based interactive web application** that allows users to:
 
-💼 Investment Simulation based on user-input capital
+✅ Analyze historical stock data  
+✅ Visualize candlestick charts and daily returns  
+✅ Simulate investment performance  
+✅ Forecast stock trends using LSTM neural networks  
 
-🧠 LSTM-based Forecasting (optional, advanced module)
+---
 
-🧪 Real-time interactive web UI built with Streamlit
+## 🚀 Features
 
-📦 Tech Stack
-Frontend/UI: Streamlit
+- 📊 Stock Data Analysis using Yahoo Finance
+- 📈 Candlestick Charts and Profit/Loss Trends with Plotly
+- 💼 Investment Simulation based on user-input capital
+- 🧠 LSTM-based Forecasting (optional, advanced module)
+- 🧪 Interactive UI built with Streamlit
 
-Data Handling: Pandas, NumPy
+---
 
-Visualization: Plotly
+## 📦 Tech Stack
 
-Data Source: Yahoo Finance (via yfinance)
+- **Frontend/UI**: Streamlit  
+- **Data Handling**: Pandas, NumPy  
+- **Visualization**: Plotly  
+- **Data Source**: Yahoo Finance (`yfinance`)  
+- **Machine Learning**: TensorFlow/Keras (LSTM)
 
-Machine Learning (Optional): TensorFlow/Keras (LSTM)
+---
 
-🧑‍💻 How to Run Locally
-Clone the repository
-git clone https:git clone https://github.com/sagargupta5159/stock-forecast-app.git
+## 🧑‍💻 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/stock-forecast-app.git
 cd stock-forecast-app
-
-
-Install dependencies
 pip install -r requirements.txt
-
-Run the app
-streamlit run Stock-Vision-Predicting-Stock-Trends-with-Open-Interest-Trading-Volume.py
-
-
+streamlit run app.py
