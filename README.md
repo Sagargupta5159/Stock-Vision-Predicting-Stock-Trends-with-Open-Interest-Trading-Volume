@@ -22,3 +22,16 @@ Visualization: Plotly
 Data Source: Yahoo Finance (via yfinance)
 
 Machine Learning (Optional): TensorFlow/Keras (LSTM)
+
+🧑‍💻 How to Run Locally
+Clone the repository
+git clone https://github.com/your-username/stock-analysis-app.git
+cd stock-analysis-app
+
+Install dependencies
+pip install -r requirements.txt
+
+Run the app
+streamlit run Stock-Vision-Predicting-Stock-Trends-with-Open-Interest-Trading-Volume.py
+
+
