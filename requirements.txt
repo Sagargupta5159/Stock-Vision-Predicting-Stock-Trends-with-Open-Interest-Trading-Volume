@@ -3,5 +3,6 @@ yfinance
 pandas
 numpy
 plotly
-tensorflow
 scikit-learn
+tensorflow
+matplotlib
