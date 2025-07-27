@@ -35,7 +35,7 @@ This project is a **Streamlit-based interactive web application** that allows us
 ## 🧑‍💻 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/stock-forecast-app.git
+git clone https://github.com/Sagargupta5159/stock-forecast-app.git
 cd stock-forecast-app
 pip install -r requirements.txt
 streamlit run app.py
