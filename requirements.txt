@@ -1,8 +1,13 @@
+# Force wheel installation for critical packages
+--only-binary numpy,pandas
 streamlit==1.39.0
 yfinance==0.2.65
 pandas==2.2.3
-numpy==2.0.2
+numpy==1.26.4  # Use stable 1.x version
 plotly==5.24.1
 scikit-learn==1.5.2
 matplotlib==3.9.2
-tensorflow==2.18.0
+tensorflow-cpu==2.18.0  # Lighter version with wheels
+keras==2.18.0
+python-dateutil==2.9.0
+pytz==2024.1
