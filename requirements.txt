@@ -1,22 +1,8 @@
-# Core requirements
 streamlit==1.39.0
+tensorflow-cpu==2.18.0
+numpy==1.23.5
+pandas==1.5.3
+matplotlib==3.7.1
 yfinance==0.2.65
-pandas==2.2.3
-numpy==1.26.4  # Downgraded from 2.0.2 for compatibility
-matplotlib==3.9.2
-
-# Machine Learning
-tensorflow-cpu==2.18.0  # Using CPU version for easier deployment
-keras==3.7.0
-scikit-learn==1.5.2
-scipy==1.14.1
-
-# Supporting packages
-plotly==5.24.1
-altair==5.4.1
-beautifulsoup4==4.12.3
-lxml==5.3.0
-requests==2.32.3
-python-dateutil==2.9.0.post0
-pytz==2024.2
-protobuf==5.28.2
+scikit-learn==1.2.2
+plotly==5.15.0
