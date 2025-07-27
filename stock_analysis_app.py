@@ -7,8 +7,8 @@ import numpy as np
 import plotly.graph_objects as go
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense, Dropout
+from tensorflow.keras.models import Sequential # pyright: ignore[reportMissingImports]
+from tensorflow.keras.layers import LSTM, Dense, Dropout # pyright: ignore[reportMissingImports]
 import matplotlib.pyplot as plt
 
 # --- Helper Functions ---
