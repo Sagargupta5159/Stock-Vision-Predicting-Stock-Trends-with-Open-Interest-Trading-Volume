@@ -1,4 +1,8 @@
 streamlit==1.39.0
 yfinance==0.2.65
 pandas==2.2.3
-numpy>=1.26.0
+numpy>=1.24.0,<2.0.0  # Prevents conflicts
+plotly==5.24.1
+scikit-learn==1.5.2
+matplotlib==3.9.2
+tensorflow==2.18.0
