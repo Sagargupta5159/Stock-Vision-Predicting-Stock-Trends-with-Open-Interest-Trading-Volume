@@ -3,6 +3,5 @@ yfinance
 pandas
 numpy
 plotly
+tensorflow
 scikit-learn
-matplotlib
-tensorflow==2.13.0
