@@ -1,8 +1,8 @@
 streamlit==1.39.0
-numpy==1.26.4            # Upgrade numpy to latest 1.26.x for Python 3.13 compatibility
-pandas==2.0.3            # Upgrade pandas to latest compatible with numpy 1.26.x and Python 3.13
-matplotlib==3.9.2        # Latest matplotlib supporting Python 3.13
 yfinance==0.2.65
-scikit-learn==1.2.2      # Should be fine, keep same version
-plotly==5.15.0
-
+pandas==2.2.3
+numpy==2.0.2
+plotly==5.24.1
+scikit-learn==1.5.2
+matplotlib==3.9.2
+tensorflow==2.18.0
