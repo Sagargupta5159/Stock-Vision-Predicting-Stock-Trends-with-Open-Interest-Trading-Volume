@@ -6,3 +6,5 @@ plotly
 scikit-learn
 tensorflow
 matplotlib
+requests
+joblib
